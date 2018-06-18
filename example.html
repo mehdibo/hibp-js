@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>hibp-js demo</title>
+    <script src="hibp.js"></script>
+</head>
+<body>
+    <input type="password" id="password"/>
+    <button id="check">Check</button>
+    <div id="result"></div>
+    <script>
+    // When the button is clicked check the password
+    document.getElementById('check').addEventListener('click', function(){
+        hibpCheck(document.getElementById('password').value);
+    });
+    // When the result is ready check if the password was found or not
+    document.addEventListener('hibpCheck', function (e) {  
+        if(e.detail){
+            alert('Found');
+        } else {
+            alert('Not Found');
+        }
+    });
+    </script>
+</body>
+</html>
