@@ -9,7 +9,7 @@ We then check if the hash exists in the returned list and fire an event `hibpChe
 ## Usage
 You should first load the library
 ```html
-<script src="hibp.min.js"></script>
+<script src="lib/hibp.min.js"></script>
 ```
 
 Then you can call the `hibpCheck('PASSWORD HERE')` function, it will fire an event `hibpCheck` with the result.
