@@ -6,6 +6,12 @@ The library will first hash the password using SHA-1 and then send the first 5 c
 
 We then check if the hash exists in the returned list and fire an event `hibpCheck` with the result
 
+## Installation
+You can either download the JavaScript file or use npm:
+```
+npm i hibp-js
+```
+
 ## Usage
 You should first load the library
 ```html
