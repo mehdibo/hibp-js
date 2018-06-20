@@ -12,7 +12,7 @@ You should first load the library
 <script src="lib/hibp.min.js"></script>
 ```
 
-Then you can call the `hibpCheck('PASSWORD HERE')` function, it will fire an event `hibpCheck` with the result.
+Then you can call the `hibpCheck('PASSWORD HERE')` function, it will fire an event `hibpCheck` with the result, check the [example](#example) for details.
 
 Don'ts:
 - Don't tell users your password is secure just because it wasn't found in hibp.
@@ -28,6 +28,6 @@ document.addEventListener('hibpCheck', function (e) {
         alert('Not Found');
     }
 });
-hibpCheck('password');
+hibpCheck('password123'); // Check if the password "password123" is in HIBP's database
 ```
 Full example can be found [here](example.html)
