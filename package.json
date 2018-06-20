@@ -1,0 +1,24 @@
+{
+  "name": "hibp-js",
+  "version": "1.0.0",
+  "description": "Check a password in haveibeenpwned using pure JavaScript",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehdibo/hibp-js.git"
+  },
+  "keywords": [
+    "javascript-library",
+    "haveibeenpwned",
+    "password-strength",
+    "password-safety"
+  ],
+  "author": "Mehdi Bounya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mehdibo/hibp-js/issues"
+  },
+  "homepage": "https://github.com/mehdibo/hibp-js#readme"
+}
