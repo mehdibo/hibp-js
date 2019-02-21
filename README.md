@@ -27,7 +27,7 @@ Don'ts:
 ## Example
 ```javascript
 // When the result is ready check if the password was found or not
-document.addEventListener('hibpCheck', function (e) {  
+document.addEventListener('hibpCheck', function (e) {
     if(e.detail){
         alert('Found');
     } else {
@@ -36,4 +36,4 @@ document.addEventListener('hibpCheck', function (e) {
 });
 hibpCheck('password123'); // Check if the password "password123" is in HIBP's database
 ```
-Full example can be found [here](example.html)
+Full example can be found [here](example/index.html)
